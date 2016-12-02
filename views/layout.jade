@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    //公共样式
+    include includes/head
+  body
+    include includes/header
+    .container
+      include includes/nav
+      .content
+        block content
+    include includes/footer
+    block scripts

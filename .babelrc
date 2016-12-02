@@ -1,0 +1,10 @@
+{
+//   "presets": ["es2015", "stage-0","react"],
+   "presets": ["es2015"],   //stage-0 es7解析会使打包速度加倍, es2015去掉打包速度会更快，但是压缩是必须加上
+   "ignore":[
+      "jquery.js",
+      "jquery.min.js",
+      "moment-with-locales.js",
+      "moment-with-locales.min.js"
+   ]
+}

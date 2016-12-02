@@ -1,0 +1,15 @@
+@import "settings";
+.header{
+  height:80px;background-color:$bg_b_191;line-height: 80px;
+  button{ display: none}
+  color:$white;
+  a{color:$white; }
+
+}
+.logo{
+  float: left;font-size:24px;margin-left: 20px;font-weight: bold;width: 30%;
+}
+.login{
+  float: right;margin-right: 20px;
+  em{padding: 0 5px 0 10px;}
+}

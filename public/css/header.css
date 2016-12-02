@@ -1,0 +1,22 @@
+.header {
+  height: 80px;
+  background-color: #191e23;
+  line-height: 80px;
+  color: #FFF; }
+  .header button {
+    display: none; }
+  .header a {
+    color: #FFF; }
+
+.logo {
+  float: left;
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  width: 30%; }
+
+.login {
+  float: right;
+  margin-right: 20px; }
+  .login em {
+    padding: 0 5px 0 10px; }

@@ -1,0 +1,9 @@
+extends layout
+block styles
+  link(href='/css/index.css',rel="styleSheet")
+block content
+  h1= title
+  p Welcome to #{title}
+  div= JSON.stringify(data)
+  .index
+    |用户！！
