@@ -1,0 +1,39 @@
+# eclipse ignore
+.settings/
+node_modules/
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# package ignore (optional)
+# *.jar
+
+#rebel
+rebel.xml
+
+
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+
+
+
+
